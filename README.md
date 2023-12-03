@@ -1,5 +1,16 @@
 ## Hidden-Eye Setup
-                                                                                        This script automates the installation process for Hidden-Eye, installing necessary packages and dependencies on Termux.
+📌Follow this Steps**
+
+$ apt update
+$ apt upgrade
+$ pkg install git
+$ pkg install python
+$ pkg install python2
+$ git clone https://github.com/officialhiddeneye/Hidden-Eye
+$ cd Hidden-Eye
+$ ./setup.sh
+
+This script automates the installation process for Hidden-Eye, installing necessary packages and dependencies on Termux.
                                                                                         ### Installation Steps
 1. Run the script using `./setup.sh`.
 2. Packages and dependencies will be installed automatically.
