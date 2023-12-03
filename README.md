@@ -1,21 +1,21 @@
 ## Hidden-Eye Setup
                                                                                         This script automates the installation process for Hidden-Eye, installing necessary packages and dependencies on Termux.
-                                                                                        ### Installation Steps
+                                                                                       ### Installation Steps
                                                                             📌Follow this Steps**
 
- $ apt update
- $ apt upgrade
- $ pkg install git
- $ pkg install python
- $ pkg install python2
- $ git clone https://github.com/officialhiddeneye/Hidden-Eye
- $ cd Hidden-Eye
- $ chmod +x *
- $ ./setup.sh
+1. $ apt update
+2. $ apt upgrade
+3. $ pkg install git
+4. $ pkg install python
+5. $ pkg install python2
+6. $ git clone https://github.com/officialhiddeneye/Hidden-Eye
+7. $ cd Hidden-Eye
+8. $ chmod +x *
+9. $ ./setup.sh
      
-1. Run the script using `./setup.sh`.
-2. Packages and dependencies will be installed automatically.
-3. Hidden-Eye files will be organized and configured for use.
+[*].   Run the script using `./setup.sh`.
+[**].  Packages and dependencies will be installed automatically.
+[***]. Hidden-Eye files will be organized and configured for use.
                                                                                         ### Dependencies Installed
 - [pv](https://www.ivarch.com/programs/pv.shtml): Pipe Viewer for enhanced package installation display.                                                                        - [python](https://www.python.org/): Programming language used for scripting.
 - [cmatrix](https://github.com/abishekvashok/cmatrix): Terminal-based "Matrix" animation.                                                                                       - [figlet](http://www.figlet.org/): Tool for creating ASCII text banners.               - [ruby](https://www.ruby-lang.org/): Programming language used for certain functionalities.                                                                                    - [mpv](https://mpv.io/): Multimedia player for playing sound effects.
